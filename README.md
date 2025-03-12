@@ -42,7 +42,7 @@ This is a Node.js + Express + MongoDB API that implements user authentication an
   "password": "securepassword"
 }
 ```
-# Response:
+### Response:
 ```json
     { "message": "User created successfully" }
 ```
@@ -60,7 +60,7 @@ Authenticates a user and returns a JWT token.
   "password": "securepassword"
 }
 ```
-# Response:
+### Response:
 ```json
     { "token": "your_jwt_token"}
 ```
@@ -75,7 +75,7 @@ Sends a password reset email with a token.
     "email": "john@example.com"
     }
 ```
-# Response
+### Response
 ```json
     { "message": "Password reset link sent to email" }
 ```
@@ -91,7 +91,7 @@ Allows the user to reset their password using the token.
 }
 ```
 
-# Response
+### Response
 ```json
     { "message": "Password reset successful!" }
 ```
